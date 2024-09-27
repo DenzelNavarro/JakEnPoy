@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jak En Poy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Let's Play Jak En Poy!</h1>
+
+    <main>
+
+        <details class="info-container">
+            <summary>Origins of the Phrase "Jak En Poy"</summary>
+
+            <p>Jak En Poy is a Filipino variation of the globally popular hand game known as rock-paper-scissors.</p>
+            <p>While the game's basic mechanics are the same, Jak En Poy adds a distinctive cultural twist through a rhythmic chant.</p>
+            <p><strong>"Jack en poy, hale-hale hoy! Sinong matalo, siya'ng unggoy!"</strong></p>
+            <p>Translation: "Jak en Poy, hale-hale hoy! Whoever loses becomes a monkey!"</p>
+
+        </details>
+
+        <div class="score-container">
+            <strong>Player Score: <span class="score" id="player-score">0</span></strong>
+            <strong>Computer Score: <span class="score" id="computer-score">0</span></strong>
+        </div>
+
+        <section class="options-container">
+            <h2>Choose an option:</h2>
+            <div class="btn-container">
+                <button id="rock-btn" class="btn">Rock</button>
+                <button id="paper-btn" class="btn">Paper</button>
+                <button id="scissors-btn" class="btn">Scissors</button>
+            </div>
+        </section>
+
+        <div class="results-container">
+            <p id="results-msg"></p>
+            <p id="winner-msg"></p>
+            <button class="btn" id="reset-game-btn">Play Again?</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
